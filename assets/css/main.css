@@ -330,6 +330,7 @@ main.container > * {
 }
 
 #questions .question__card {
+  cursor: pointer;
   border: 1px solid #9b9b9b;
   display: grid;
   grid-template-columns: repeat(2, 46%);
@@ -644,6 +645,7 @@ h2 {
 @media (max-width: 812px) {
   #visualisation svg {
     max-height: 300px;
+    margin: 0 30px;
   }
   main.container {
     width: 100%;
