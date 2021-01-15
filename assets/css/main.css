@@ -238,16 +238,15 @@ main.container > * {
 .cover .cover__heading {
   color: #000000;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 0.93rem;
   background-color: #fdf102;
   padding: 10px;
   max-width: 740px;
-  margin-bottom: 100px;
   font-family: "GT Zirkon Regular", "Arial", sans-serif;
 }
 
 .cover .authors {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0;
   color: #fdf102;
   background-color: var(--color-main);
@@ -255,55 +254,55 @@ main.container > * {
 }
 
 .cover .cover__title1 {
-  font-size: 8rem;
-  text-transform: uppercase;
-  line-height: 1;
-  color: #000000;
-  background-color: #fdf102;
-  text-align: left;
-  max-width: 950px;
-  padding: 20px 60px 20px 20px;
-  margin: 0;
-  text-align: right;
-}
-
-.cover .cover__title2 {
   font-size: 6rem;
   text-transform: uppercase;
   line-height: 1;
   color: #000000;
   background-color: #fdf102;
   text-align: left;
+  max-width: 950px;
+  padding: 10px 60px 10px 20px;
+  margin: 0;
+  text-align: right;
+}
+
+.cover .cover__title2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #000000;
+  background-color: #fdf102;
+  text-align: left;
   max-width: 1200px;
-  padding: 20px 60px 20px 20px;
+  padding: 10px 60px 10px 20px;
   margin: 0;
   text-align: right;
 }
 .cover .cover__title3 {
-  font-size: 8.6rem;
+  font-size: 6.6rem;
   text-transform: uppercase;
   line-height: 1;
   color: #000000;
   background-color: #fdf102;
   text-align: left;
   max-width: 950px;
-  padding: 20px 60px 20px 20px;
+  padding: 10px 60px 10px 20px;
   margin: 0;
   text-align: right;
 }
 
 .cover .cover__subtitle {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #000000;
   background-color: #fdf102;
-  padding: 30px;
-  max-width: 810px;
+  padding: 20px;
+  max-width: 475px;
   font-family: "GT Zirkon Regular", "Arial", sans-serif;
   margin-top: 20px;
 }
 
 .cover__authors {
-  margin-top: 40px;
+  margin-top: 26px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -669,11 +668,12 @@ h2 {
   }
 
   .cover .cover__title {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .cover .cover__subtitle {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    max-width: 300px;
   }
 
   .cover .cover__heading {
@@ -682,12 +682,30 @@ h2 {
   }
 
   .cover .authors {
-    font-size: 0.6rem;
-    padding: 10px 4px;
+      margin-top: 0;
+      font-size: 0.6rem;
+      padding: 10px 15px;
+  
   }
 
   .cover .cover__title1 {
-    font-size: 2.8rem;
+    font-size: 6.45rem;
+    padding: 10px 8px;
+  }
+
+  .cover .cover__title2 {
+    font-size: 3.8rem;
+    padding: 10px 8px;
+  }
+  .cover .cover__title3 {
+    font-size: 7.5rem;
+    padding: 10px 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cover .cover__title1 {
+    font-size: 3rem;
     padding: 10px 8px;
   }
 
@@ -696,7 +714,7 @@ h2 {
     padding: 10px 8px;
   }
   .cover .cover__title3 {
-    font-size: 2.8rem;
+    font-size: 3rem;
     padding: 10px 8px;
   }
 }
